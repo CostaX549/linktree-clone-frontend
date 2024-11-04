@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default defineNuxtPlugin((NuxtApp) => {
-    axios.defaults.baseURL = 'http://localhost:80'
+    axios.defaults.baseURL = 'https://api.barberconnect.xyz'
 
     axios.defaults.withCredentials = true;
     axios.defaults.withXSRFToken = true;
